@@ -1,0 +1,14 @@
+
+Python
+Google Colab (GPU)
+numpy
+pandas
+nltk
+tensorflow
+Adam
+EarlyStopping
+sicket-learn
+Matplotlib
+CNN MODEL
+ResNet Model(Built-in)
+
