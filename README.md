@@ -317,46 +317,6 @@ from tensorflow.keras.models import load_model
 cnn_model = load_model("cifar10_cnn_model.keras")
 resnet_model = load_model("cifar10_resnet_style_model.keras")
 ```
-
----
-
-## How to Run the Project
-
-### Option 1: Run in Google Colab
-
-1. Open the notebook in Google Colab.
-2. Go to **Runtime > Change runtime type**.
-3. Select **GPU** for faster training.
-4. Run all cells from top to bottom.
-5. CIFAR-10 will download automatically on the first run.
-6. Trained models will be saved at the end of the notebook.
-
-### Option 2: Run Locally
-
-Install the required libraries:
-
-```bash
-pip install tensorflow numpy pandas matplotlib scikit-learn
-```
-
-Then open the notebook:
-
-```bash
-jupyter notebook HexSoftwares_Image_Classification_CNN_ResNet.ipynb
-```
-
----
-
-## Repository Structure
-
-```text
-.
-├── HexSoftwares_Image_Classification_CNN_ResNet.ipynb
-├── cifar10_cnn_model.keras
-├── cifar10_resnet_style_model.keras
-└── README.md
-```
-
 ---
 
 ## Key Learnings
